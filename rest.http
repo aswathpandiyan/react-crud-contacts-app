@@ -1,0 +1,16 @@
+
+
+###login
+POST https://contacts-app.getsandbox.com/login
+content-type: application/json
+
+{
+    "mobile": "1234567890",
+    "password": "1234567890",
+}
+
+### getAllContacts
+GET https://contacts-app.getsandbox.com/contacts
+
+
+

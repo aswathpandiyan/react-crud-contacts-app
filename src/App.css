@@ -36,3 +36,237 @@
     transform: rotate(360deg);
   }
 }
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.img {
+  outline: none;
+}
+@font-face {
+  font-family: helveticaneue;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+}
+body {
+  font-family: helveticaneue;
+}
+.container {
+  background: lightblue;
+  padding: 100px;
+}
+.loginform {
+  width: 30%;
+  margin: 50px auto;
+  padding: 45px;
+  border: 1px solid #c2c2c2;
+  border-radius: 10px;
+  background: #fff;
+}
+.txt {
+  text-align: center;
+}
+.textbox {
+  width: 350px;
+  border-radius: 4px;
+  border: 1px solid #c2c2c2;
+  padding: 12px 10px;
+  font-size: 15px;
+  margin: 8px 0;
+}
+.email {
+  position: relative;
+}
+.email-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+}
+.pwd {
+  position: relative;
+}
+.pwd-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+}
+.checkbox {
+  display: inline-block;
+  margin: 8px 0;
+}
+.fright {
+  float: right;
+}
+.login {
+  width: 170px;
+  background: #1d86ff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 12px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.table_structure {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+td,
+th {
+  border: 5px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+table {
+  border-spacing: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+img,
+input {
+  outline: none;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+@font-face {
+  font-family: helveticaneue;
+}
+body {
+  font-family: helveticaneue;
+}
+.box {
+  width: 500px;
+  padding: 30px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  margin: 5% auto;
+}
+.login {
+  font-size: 23px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px 220px;
+}
+.textbox_section {
+  padding: 10px 70px;
+}
+.label {
+  font-size: 18px;
+  padding: 15px 0px;
+  display: inline-block;
+  color: #777;
+  font-weight: 600;
+}
+.textbox {
+  width: 350px;
+  height: 30px;
+  border-radius: 4px;
+  border: solid 1px #c2c2c2;
+  padding: 0.4em 0 0.4em 0.6em;
+  margin-bottom: 10px;
+  font-size: 15px;
+  letter-spacing: 0.11px;
+  color: #a4a4a4;
+}
+.check_box {
+  width: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.keep_me {
+  font-size: 18px;
+  display: inline-block;
+  color: #777;
+}
+.login_button {
+  width: 360px;
+  height: 47px;
+  font-weight: bold;
+  background-color: #ff7c0b;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.links {
+  display: inline-block;
+}
+.link {
+  font-size: 18px;
+  color: #0274cb;
+  cursor: pointer;
+  padding: 10px;
+}
+.bar {
+  margin-top: 5px;
+  padding-left: 10px;
+}
